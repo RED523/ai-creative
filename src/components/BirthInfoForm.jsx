@@ -47,7 +47,7 @@ const BirthInfoForm = ({ onSubmit, onBack }) => {
       transition={{ duration: 0.5 }}
     >
       <Card className="fortune-card">
-        <Space direction="vertical" size="large" style={{ width: '100%' }}>
+        <Space direction="vertical" size="large" style={{ width: '100%', marginTop: '50px' }}>
           <div style={{ display: 'flex', alignItems: 'center' }}>
             <Button 
               type="text" 

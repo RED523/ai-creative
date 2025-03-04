@@ -78,7 +78,7 @@ const FortuneResult = ({ result, userInfo, onRetry, onHome }) => {
       transition={{ duration: 0.5 }}
     >
       <Card className="fortune-card">
-        <Space direction="vertical" size="large" style={{ width: '100%' }}>
+        <Space direction="vertical" size="large" style={{ width: '100%', marginTop: '450px' }}>
           <div style={{ textAlign: 'center' }}>
             <motion.div
               initial={{ scale: 0 }}
